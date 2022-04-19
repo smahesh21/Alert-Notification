@@ -56,7 +56,7 @@ const AlertNotification = () => {
   return (
     <div className="alert-notification-container">
       <div className="alert-notification">
-        <h1 className="notification-heading">Alert Notification</h1>
+        <h1 className="notification-heading">Alert Notifications</h1>
         {renderSuccessNotificationCard()}
         {renderErrorNotificationCard()}
         {renderWarningNotificationCard()}
